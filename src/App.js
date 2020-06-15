@@ -31,12 +31,12 @@ class App extends React.Component {
           <a href="https://youtube.com"
             target="_blank"
             rel="noopener noreferrer">
-            <img src={this.state.img} alt="an image" width="600" height="400" />
+            <img src={this.state.img} alt="animal" width="600" height="400" />
           </a>
 
           <input type="text" value={this.state.value} onChange={this.handleChange} name="title" />
           <button type="button" onClick={() => {
-            if (this.state.value == "Junha") {
+            if (this.state.value === "Junha") {
               this.setState({ isCorrect: "Good Job!" })
             }
             else {
