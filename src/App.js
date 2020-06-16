@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Sound from 'react-sound';
 
 
 class App extends React.Component {
