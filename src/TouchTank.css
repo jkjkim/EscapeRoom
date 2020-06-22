@@ -14,7 +14,8 @@
 }
 
 .div1 { grid-area: 5 / 2 / 8 / 4; border-width: thick;
-    border-color: black;}
+    border-color: black;
+    background-color: aqua;}
 .div2 { grid-area: 2 / 5 / 4 / 6; }
 .div3 { grid-area: 1 / 6 / 3 / 7; }
 .div4 { grid-area: 2 / 10 / 4 / 11; }
