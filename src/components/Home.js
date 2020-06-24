@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../data/logo.svg';
 import './App.css';
 
+import Rotation from 'react-rotation'
 
 class Home extends React.Component {
 
@@ -27,6 +28,11 @@ class Home extends React.Component {
         return (
             <div className="App">
                 <header className="App-header">
+
+                    <Rotation>
+                        <img src='https://cdn2.f-cdn.com/contestentries/1298362/19153059/5ac67aadb03b0_thumbCard.jpg' />
+                    </Rotation>
+
                     <img src={logo} className="App-logo" alt="logo" />
 
                     <button onClick={() => { this.setState({ img: 'https://images.freeimages.com/images/large-previews/44a/cow-1575964.jpg' }) }}>Click to see a Cow</button>

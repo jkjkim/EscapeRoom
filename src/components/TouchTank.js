@@ -1,5 +1,6 @@
 import React from 'react';
 import './TouchTank.css';
+import Arrow from '@elsdoerfer/react-arrow';
 
 
 const TouchTank = () => {
@@ -21,6 +22,22 @@ const TouchTank = () => {
             <div className="div13" onClick={() => makeSound(crab)}>Horseshoe Crab</div>
             <div className="div14" onClick={() => makeSound(dollar)}>Sand Dollar</div>
             <div className="div15" onClick={() => makeSound(orange)}>Orange Starfish</div>
+
+            <div className="div16">
+                <Arrow
+                    angle={100}
+                    length={100}
+                    style={{
+                        width: '100px'
+                    }}
+                />
+            </div>
+            <div className="div17"> </div>
+            <div className="div18"> </div>
+            <div className="div19"> </div>
+            <div className="div20"> </div>
+            <div className="div21"> </div>
+            <div className="div22"> </div>
         </div>
     )
 }

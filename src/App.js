@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './components/App.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,8 +7,8 @@ import {
   Link
 } from "react-router-dom";
 
-import TouchTank from './TouchTank';
-import Home from './Home.js';
+import TouchTank from './components/TouchTank';
+import Home from './components/Home.js';
 
 
 class App extends React.Component {
