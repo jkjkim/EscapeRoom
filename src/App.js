@@ -10,7 +10,7 @@ import {
 import TouchTank from './components/TouchTank';
 import Home from './components/Home.js';
 import Math from './components/Math.js';
-
+import MainFloor from './components/MainFloor.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -48,6 +48,9 @@ class App extends React.Component {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/MainFloor">
+            <MainFloor />
           </Route>
         </Switch>
       </Router>
