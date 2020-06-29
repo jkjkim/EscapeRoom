@@ -1,0 +1,23 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 3 / 3 / 6 / 5; }
+.div2 { grid-area: 3 / 6 / 6 / 8; }
+.div3 { grid-area: 3 / 9 / 6 / 11; }
+.div4 { grid-area: 2 / 10 / 5 / 12; }
+.div5 { grid-area: 8 / 2 / 9 / 3; }
+.div6 { grid-area: 11 / 2 / 12 / 3; }
+.div7 { grid-area: 7 / 5 / 8 / 6; }
+.div8 { grid-area: 9 / 5 / 10 / 6; }
+.div9 { grid-area: 9 / 7 / 10 / 8; }
+.div10 { grid-area: 7 / 8 / 8 / 9; }
+.div11 { grid-area: 10 / 9 / 11 / 10; }
+.div12 { grid-area: 9 / 10 / 10 / 11; }
+.div13 { grid-area: 7 / 11 / 8 / 12; }
+.div14 { grid-area: 11 / 11 / 12 / 12; }
+.div15 { grid-area: 11 / 4 / 13 / 11; }

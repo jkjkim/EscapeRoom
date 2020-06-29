@@ -9,6 +9,7 @@ import {
 
 import TouchTank from './components/TouchTank';
 import Home from './components/Home.js';
+import Math from './components/Math.js';
 
 
 class App extends React.Component {
@@ -36,10 +37,14 @@ class App extends React.Component {
       <Router>
         <Link to="/touchtank">Go To Touch Tank</Link>
         <Link to="/">Go To Home</Link>
+        <Link to="/math">Go To Math Puzzle</Link>
 
         <Switch>
           <Route path="/touchtank">
             <TouchTank />
+          </Route>
+          <Route path="/math">
+            <Math />
           </Route>
           <Route path="/">
             <Home />
