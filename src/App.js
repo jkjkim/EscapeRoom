@@ -37,7 +37,7 @@ class App extends React.Component {
       <Router>
         <Link to="/touchtank">Go To Touch Tank</Link>
         <Link to="/">Go To Home</Link>
-        <Link to="/math">Go To Math Puzzle</Link>
+        {/* <Link to="/math">Go To Math Puzzle</Link> */}
 
         <Switch>
           <Route path="/touchtank">
