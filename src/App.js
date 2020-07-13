@@ -38,7 +38,7 @@ class App extends React.Component {
         <Link to="/touchtank">Go To Touch Tank</Link>
         <Link to="/">Go To Home</Link>
         {/* <Link to="/math">Go To Math Puzzle</Link> */}
-
+        <Link to="/mains">Go To MainFloor</Link>
         <Switch>
           <Route path="/touchtank">
             <TouchTank />
@@ -47,9 +47,9 @@ class App extends React.Component {
             <Math />
           </Route>
           <Route path="/">
-            <Home />
+            <MainFloor />
           </Route>
-          <Route path="/MainFloor">
+          <Route path="/main">
             <MainFloor />
           </Route>
         </Switch>
