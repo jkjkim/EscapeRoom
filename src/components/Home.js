@@ -30,7 +30,7 @@ class Home extends React.Component {
                 <header className="App-header">
 
                     <Rotation>
-                        <img src='https://cdn2.f-cdn.com/contestentries/1298362/19153059/5ac67aadb03b0_thumbCard.jpg' />
+                        <img src='https://cdn2.f-cdn.com/contestentries/1298362/19153059/5ac67aadb03b0_thumbCard.jpg' alt='img1' />
                     </Rotation>
 
                     <img src={logo} className="App-logo" alt="logo" />
