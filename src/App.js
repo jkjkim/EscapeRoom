@@ -11,6 +11,7 @@ import Home from './components/Home.js';
 import Math from './components/Math.js';
 import MainFloor from './components/MainFloor.js';
 import Research from './components/Research.js';
+import Intro from './components/Intro.js';
 
 class App extends React.Component {
   render() {
@@ -26,8 +27,13 @@ class App extends React.Component {
             <Route path="/touchtank">
               <TouchTank />
             </Route>
+
             <Route path="/math">
               <Math />
+            </Route>
+
+            <Route path="/intro">
+              <Intro />
             </Route>
 
             <Route path="/mains">
