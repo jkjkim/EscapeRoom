@@ -1,25 +1,40 @@
 import React from 'react';
 import './MainFloor.css';
-import Touch from '../data/TouchTank.png'
-import Shark from '../data/Shark Tank Clipart.png'
-import Kids from '../data/Gate_Final.png'
+import { Link } from "react-router-dom";
+import TouchImg from '../data/TouchTank.png'
+import SharkImg from '../data/Shark Tank Clipart.png'
+import KidsImg from '../data/Gate_Final.png'
+import ResearchImg from '../data/Door.png'
+import FishImg from '../data/TempFishTank.png'
 const MainFloor = () => {
 
     return (
         <div className="parent">
             <div className="div1">Stars</div>
             <div className="div2">
-            <img style={{position: "absolute" }} src={Shark} width="300" alt="imgs" />           
+                <Link to = '/shark'>
+                    <img style={{position: "absolute" }} src={SharkImg} width="300" alt="imgs" />
+                </Link>
             </div>
             <div className="div3">Reception</div>
             <div className="div4">
-            <img style={{position: "absolute" }} src={Touch} width="300" alt="imgs" />           
+            <Link to = '/touchtank'>
+                <img style={{position: "absolute" }} src={TouchImg} width="300" alt="imgs" />           
+            </Link>
             </div> 
-            <div className="div5">Fish Tank</div>
-            <div className="div6">
-            <img style={{position: "absolute" }} src={Kids} width="200" alt="imgs" />    
+            <div className="div5">
+            <Link to = '/math'>
+                <img style={{position: "absolute" }} src={FishImg} width="300" alt="imgs" />           
+            </Link>
             </div>
-            <div className="div7">Lab/Research Room</div>
+            <div className="div6">
+            <img style={{position: "absolute" }} src={KidsImg} width="200" alt="imgs" />    
+            </div>
+            <div className="div7">
+            <Link to = '/research'>
+                <img style={{position: "absolute" }} src={ResearchImg} width="200" height="300" alt="imgs" />           
+            </Link>
+            </div>
         </div>
     )
 }

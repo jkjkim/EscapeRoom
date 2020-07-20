@@ -12,6 +12,7 @@ import Math from './components/Math.js';
 import MainFloor from './components/MainFloor.js';
 import Research from './components/Research.js';
 import Intro from './components/Intro.js';
+import SharkTank from './components/SharkTank.js';
 
 class App extends React.Component {
   render() {
@@ -42,6 +43,10 @@ class App extends React.Component {
 
             <Route path="/research">
               <Research />
+            </Route>
+
+            <Route path="/shark">
+              <SharkTank />
             </Route>
 
             <Route path="/">
