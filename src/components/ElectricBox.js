@@ -1,11 +1,9 @@
 import React from 'react';
 
-import { Link } from "react-router-dom";
-import Floor from '../data/Research/Floor.png'
 import LockBox from '../data/Research/Electric Box.png'
 import Desk from '../data/Research/Desk.png'
 
-class Research extends React.Component {
+class ElectricBox extends React.Component {
 
 
     render() {
@@ -29,4 +27,4 @@ class Research extends React.Component {
     }
 }
 
-export default Research;
+export default ElectricBox;
